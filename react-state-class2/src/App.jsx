@@ -4,6 +4,7 @@ import TodoList from "./TodoList";
 import Lottery from "./Lottery";
 import { sum } from "./helper";
 
+
 function App() {
   let winCondition = (ticket) => {
     return ticket[0]===0;
