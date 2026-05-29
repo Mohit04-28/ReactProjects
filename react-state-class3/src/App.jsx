@@ -1,13 +1,15 @@
 import Form from "./Form";
-import './App.css'
-import CommentsForm from "./CommentsForm"
+import "./App.css";
+import CommentsForm from "./CommentsForm";
+import Comment from "./Comment";
 
 function App() {
-    return (
+  return (
     <>
-      <CommentsForm/>
+      <Comment />
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
